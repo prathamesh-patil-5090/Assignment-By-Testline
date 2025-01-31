@@ -10,7 +10,14 @@ const QuizHeader = () => (
       <div className="flex justify-between items-center">
         <div>
           <h1 className="text-2xl font-bold">Quiz Test</h1>
-          <p className="text-sm text-blue-100">by Prathamesh Patil</p>
+          <a 
+            href="https://github.com/prathamesh-patil-5090" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="text-sm text-blue-100 hover:text-white hover:underline"
+          >
+            by Prathamesh Patil
+          </a>
         </div>
         <div className="flex items-center gap-2">
           <span className="text-sm bg-blue-700 px-3 py-1 rounded-full">Testline</span>
