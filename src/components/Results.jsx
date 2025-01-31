@@ -123,7 +123,7 @@ const Results = ({ score, totalQuestions, answers, questions, onRestart }) => {
                   </div>
                 )}
 
-                {/* Updated Detailed Solution */}
+                {/* Detailed Solution */}
                 {questions[index].detailed_solution && (
                   <div className="p-3 bg-blue-50 rounded">
                     <p className="text-sm font-medium text-blue-600">Explanation:</p>

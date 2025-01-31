@@ -1,20 +1,18 @@
 export const formatBoldText = (text) => {
   if (!text) return '';
   
-  // Replace markdown bold (**text**) with HTML bold tags
   return text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
 };
 
-// Optional: More comprehensive markdown formatting
+// Comprehensive markdown formatting
 export const formatMarkdown = (text) => {
   if (!text) return '';
   
   return text
-    // Format specific DNA/RNA sequence patterns
     .replace(/5\s*[′']\s*(?:[𝐴𝐴𝐴𝑇]|\s*A\s*A\s*A\s*T\s*)\s*3\s*[′']\s*5\s*[′']\s*AAAT3\s*[′']/g, "5' AAAT 3'")
     .replace(/3\s*[′']\s*(?:[𝑇𝑇𝑇𝐴]|\s*T\s*T\s*T\s*A\s*)\s*5\s*[′']\s*3\s*[′']\s*TTTA5\s*[′']/g, "3' TTTA 5'")
     .replace(/5\s*[′']\s*(?:[𝐴𝐴𝐴𝑈]|\s*A\s*A\s*A\s*U\s*)\s*3\s*[′']\s*5\s*[′']\s*AAAU3\s*[′']/g, "5' AAAU 3'")
-    // Fix multi-line DNA sequence like:
+    // Multi-line DNA sequence like:
     // 5 '\n … A\n A\n A\n T\n … 3\n '  =>  5' AAAT 3'
     .replace(/5\s*[\n ]*['′]\s*[\n ]*[𝐴]+\s*[𝐴]+\s*[𝐴]+\s*[𝑇]+\s*[\n ]*3\s*[\n ]*['′]\s*5['′]\s*AAAT\s*3['′]/g, "5' AAAT 3'")
     // Cleanup scattered sequences

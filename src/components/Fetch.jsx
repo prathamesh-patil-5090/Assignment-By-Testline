@@ -25,22 +25,20 @@ const Fetch = ({ onDataReceived }) => {
 
           if (!response.ok) {
             console.log(`Failed with proxy ${proxy}, status: ${response.status}`);
-            continue; // Try next proxy
+            continue;
           }
 
           const data = await response.json();
           console.log('Successfully fetched data:', data);
           onDataReceived(data);
           setLoading(false);
-          return; // Success - exit the function
+          return;
 
         } catch (error) {
           console.log(`Failed with proxy ${proxy}:`, error);
-          // Continue to next proxy
         }
       }
 
-      // If all proxies fail, use fallback data
       console.log('All proxies failed, using fallback data');
       onDataReceived(quizData);
       setError('Using backup data - API unavailable');
