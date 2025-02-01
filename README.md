@@ -15,8 +15,9 @@ An interactive quiz application built with React and TailwindCSS that features s
 <details>
 <summary>Click to view screenshots</summary>
 
-[Add your screenshots here]
-
+[Start Screen](![image](https://github.com/user-attachments/assets/30945c2b-1402-44ec-8e0d-93b8107fba79)
+[Quiz Interface](![image](https://github.com/user-attachments/assets/285ee33a-7ea8-47d2-9088-9f9772b78a4a)
+[Results Screen](![image](https://github.com/user-attachments/assets/c34e315a-7ffb-4178-a5cb-64ab035d9a68)
 To add screenshots:
 1. Create a `screenshots` folder in your project
 2. Add images there
