@@ -21,6 +21,9 @@ Results Screen(![image](https://github.com/user-attachments/assets/c34e315a-7ffb
 
 </details>
 
+## Video
+Link: https://drive.google.com/file/d/1j3WJzSx7QdVLtcdn8A6300E2ynXeovjY/view?usp=sharing
+
 ## Installation
 
 1. Clone the repository:
