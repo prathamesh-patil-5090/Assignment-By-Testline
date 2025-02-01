@@ -15,21 +15,9 @@ An interactive quiz application built with React and TailwindCSS that features s
 <details>
 <summary>Click to view screenshots</summary>
 
-[Start Screen](![image](https://github.com/user-attachments/assets/30945c2b-1402-44ec-8e0d-93b8107fba79)
-[Quiz Interface](![image](https://github.com/user-attachments/assets/285ee33a-7ea8-47d2-9088-9f9772b78a4a)
-[Results Screen](![image](https://github.com/user-attachments/assets/c34e315a-7ffb-4178-a5cb-64ab035d9a68)
-To add screenshots:
-1. Create a `screenshots` folder in your project
-2. Add images there
-3. Reference them like this:
-```markdown
-![Start Screen](![image](https://github.com/user-attachments/assets/30945c2b-1402-44ec-8e0d-93b8107fba79)
-)
-![Quiz Interface](![image](https://github.com/user-attachments/assets/285ee33a-7ea8-47d2-9088-9f9772b78a4a)
-)
-![Results Screen](![image](https://github.com/user-attachments/assets/c34e315a-7ffb-4178-a5cb-64ab035d9a68)
-)
-```
+Start Screen(![image](https://github.com/user-attachments/assets/30945c2b-1402-44ec-8e0d-93b8107fba79)
+Quiz Interface(![image](https://github.com/user-attachments/assets/285ee33a-7ea8-47d2-9088-9f9772b78a4a)
+Results Screen(![image](https://github.com/user-attachments/assets/c34e315a-7ffb-4178-a5cb-64ab035d9a68)
 
 </details>
 
@@ -111,4 +99,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 Prathamesh Patil - [GitHub](https://github.com/prathamesh-patil-5090)
 
-Project Link: [https://github.com/your-username/quiz-application](https://github.com/your-username/quiz-application)
+Project Link: [https://github.com/prathamesh-patil-5090/Assignment-By-Testline](https://github.com/prathamesh-patil-5090/Assignment-By-Testline)
