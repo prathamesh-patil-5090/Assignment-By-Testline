@@ -1,11 +1,10 @@
 # Quiz Application
 
-An interactive quiz application built with React and TailwindCSS that features streak bonuses, score tracking, and a fallback system for data fetching.
+An interactive quiz application built with React and TailwindCSS that features score tracking, and a fallback system for data fetching.
 
 ## Features
 
 - Dynamic quiz questions loading from API with fallback data
-- Streak bonus system for consecutive correct answers
 - Progress tracking and score calculation
 - Review previous answers
 - Responsive design with TailwindCSS
@@ -23,9 +22,12 @@ To add screenshots:
 2. Add images there
 3. Reference them like this:
 ```markdown
-![Start Screen](./screenshots/start-screen.png)
-![Quiz Interface](./screenshots/quiz-interface.png)
-![Results Screen](./screenshots/results-screen.png)
+![Start Screen](![image](https://github.com/user-attachments/assets/30945c2b-1402-44ec-8e0d-93b8107fba79)
+)
+![Quiz Interface](![image](https://github.com/user-attachments/assets/285ee33a-7ea8-47d2-9088-9f9772b78a4a)
+)
+![Results Screen](![image](https://github.com/user-attachments/assets/c34e315a-7ffb-4178-a5cb-64ab035d9a68)
+)
 ```
 
 </details>
